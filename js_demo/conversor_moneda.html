@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversor de Moneda</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+        </style>
+        <script src="js/conversor.js"></script>
+    </head>
+    <body>
+        <h1>Conversor de USD a BOB</h1>
+        <form onsubmit="return false;">
+            <label for="montoUSD">Monto en USD</label>
+            <input type="number" id="montoUSD">
+            <button onclick="convertir();" >Convertir</button>
+
+            <!--
+            <button onclick="" >Clear</button>
+            -->
+
+        </form>
+
+        <div class="resultado" id="resultadoId">
+           BOB
+        </div>
+
+    </body>
+</html>

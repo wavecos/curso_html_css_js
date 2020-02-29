@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', cursive;
+}
+
+button {
+    background: #E84855;
+    border: none;
+    color: white;
+}
+
+input {
+    border: none;
+    border: 1px solid #E84855;
+}
+
+.resultado {
+    font-size: 36px;
+    visibility: hidden;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo JavaScript</title>
+
+        <script>
+            // alert('Hola Mundo');
+            var contador = 0;
+
+            function saludar() {
+                // var titulo = document.querySelector('h1');
+                contador++; // contador = contador + 1;
+                var titulo = document.getElementById('titular');
+
+                var nombre = document.getElementById('nombre');
+
+                var saludo = 'Hola ' + nombre.value + ' ' + contador; 
+
+                titulo.innerHTML = saludo;
+                titulo.style = 'color: red;';
+            }
+
+        </script>
+    </head>
+    <body>
+        
+        <h1 id="titular">Demo de JS</h1>
+
+        <form onsubmit="return false;">
+            <label for="nombre">Coloca tu Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <button onclick="saludar();" >Saludo</button>
+        </form>
+
+        
+
+        <p>
+            este es un parrafo de html
+        </p>
+
+        <h1>titulo 2</h1>
+
+    </body>
+</html>
